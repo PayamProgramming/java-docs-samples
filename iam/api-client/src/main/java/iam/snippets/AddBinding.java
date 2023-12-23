@@ -25,7 +25,7 @@ public class AddBinding {
 
   // Adds a member to a role with no previous members.
   public static void addBinding(Policy policy) {
-    // policy = service.Projects.GetIAmPolicy(new GetIamPolicyRequest(), your-project-id).Execute();
+    // policy = service.Projects.GetIAmPolicy(new GetIamPolicyRequest(), your-project-id).Execute();a
 
     String role = "roles/role-to-add";
     List<String> members = new ArrayList<>();
